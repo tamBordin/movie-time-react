@@ -11,7 +11,7 @@ import Landing from "../pages/landing/Landing";
 
 const RouterComponent = (): JSX.Element => {
   return (
-    <Router>
+    <Router basename="/movie-time-react">
       <Navbar />
       <Routes>
         <Route path="/" element={<Navigate to="/main" />}></Route>
