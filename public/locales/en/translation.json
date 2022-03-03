@@ -5,5 +5,21 @@
     "movies": "Movies",
     "newAndPopular": "New & Popular",
     "myList": "My List"
+  },
+  "footer": {
+    "subtitles": "Audio and Subtitles",
+    "audioDescription": "Audio Description",
+    "help": "Help Center",
+    "redeem": "Gift Cards",
+    "media": "Media Center",
+    "ir": "Investor Relations",
+    "jobs": "Jobs",
+    "terms": "Terms of Use",
+    "privacy": "Privacy",
+    "notices": "Legal Notices",
+    "cookies": "Cookie Preferences",
+    "corpInfo": "Corporate Information",
+    "contactUs": "Contact Us",
+    "serviceCode": "Service Code"
   }
 }
