@@ -8,11 +8,8 @@ import {
 import Footer from "../components/footer/Footer";
 import Navbar from "../components/navbar/Navbar";
 import Landing from "../pages/landing/Landing";
-import { createBrowserHistory } from "history";
 
 const RouterComponent = (): JSX.Element => {
-  const history = createBrowserHistory();
-
   return (
     <Router basename="/movie-time-react">
       <Navbar />
