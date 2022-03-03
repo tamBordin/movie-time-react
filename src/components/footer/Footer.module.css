@@ -1,0 +1,76 @@
+.footer {
+    margin: 20px auto 0;
+    padding: 0 4%;
+    max-width: 980px;
+    font-size: 12.6px;
+    line-height: 1.4;
+    color: grey;
+}
+
+.footer>.social__links {
+    display: flex;
+    margin-bottom: 1em;
+}
+
+.footer>.social__links>a {
+    margin-right: 15px;
+}
+
+.footer>.social__links>a>svg {
+    fill: white;
+    height: 25px;
+    width: 36px;
+}
+
+.footer>.links {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 0 14px 0;
+    padding: 0;
+    font-size: 13px;
+}
+
+.footer>.links>li {
+    box-sizing: border-box;
+    display: list-item;
+    flex-basis: 25%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    margin-bottom: 16px;
+    list-style: none;
+}
+
+.footer>.links>li>a {
+    font-weight: 500;
+    font-size: 13px;
+    color: grey;
+    text-decoration: none;
+}
+
+.footer>.links>li>a:hover {
+    text-decoration: underline
+}
+
+.footer>.service>button {
+    margin-bottom: 20px;
+    font-size: 13px;
+    padding: 0.5em;
+    background: 0 0;
+    color: grey;
+    border: solid 1px grey;
+    font-family: inherit;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.footer>.service>button:hover {
+    color: white;
+}
+
+.footer>.copy__right {
+    margin-bottom: 15px;
+    font-size: 11px;
+    line-height: 15.4px;
+}

@@ -1,0 +1,25 @@
+body,
+html {
+  margin: 0;
+  font-size: .75vw;
+  font-weight: 400;
+  text-size-adjust: 100%;
+  line-height: 19.6px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Prompt', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+  background: #141414;
+  color: white;
+}
+
+.pin {
+  position: fixed !important;
+  background-color: #141414 !important;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, .7) 10%, rgba(0, 0, 0, 0)) !important;
+  top: 0;
+  left: 0;
+  right: 0;
+}
