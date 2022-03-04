@@ -1,7 +1,6 @@
 body,
 html {
   margin: 0;
-  font-size: .75vw;
   font-weight: 400;
   text-size-adjust: 100%;
   line-height: 19.6px;
@@ -10,9 +9,18 @@ html {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  min-height: 100vh;
   background: #141414;
   color: white;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
 }
 
 .pin {
@@ -22,4 +30,44 @@ html {
   top: 0;
   left: 0;
   right: 0;
+}
+
+@media screen and (min-width: 1601px) and (max-width: 1920px) and (orientation: landscape) {
+
+  body,
+  html {
+    font-size: .75vw;
+  }
+}
+
+@media screen and (min-width: 1281px) and (max-width: 1600px) and (orientation: landscape) {
+
+  body,
+  html {
+    font-size: .75vw;
+  }
+}
+
+@media screen and (min-width: 841px) and (max-width: 1280px) and (orientation: landscape) {
+
+  body,
+  html {
+    font-size: .85vw;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 840px) and (orientation: landscape) {
+
+  body,
+  html {
+    font-size: 1.2vw;
+  }
+}
+
+@media screen and (min-width: 0) and (max-width: 480px) and (max-aspect-ratio: 4 / 3) {
+
+  body,
+  html {
+    font-size: 1.5vw;
+  }
 }

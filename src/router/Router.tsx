@@ -7,7 +7,7 @@ import {
 } from "react-router-dom";
 import Footer from "../components/footer/Footer";
 import Navbar from "../components/navbar/Navbar";
-import Landing from "../pages/landing/Landing";
+import Home from "../pages/home/Home";
 
 const RouterComponent = (): JSX.Element => {
   return (
@@ -15,7 +15,7 @@ const RouterComponent = (): JSX.Element => {
       <Navbar />
       <Routes>
         <Route path="/" element={<Navigate to="/main" />}></Route>
-        <Route path="/main" element={<Landing />} />
+        <Route path="/main" element={<Home />} />
         <Route path="*" element={<div>NOT FOUND</div>} />
       </Routes>
       <Footer />

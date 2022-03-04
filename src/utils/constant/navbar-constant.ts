@@ -1,4 +1,5 @@
 import { INavbarFirstNavigate } from "../../models/navbar.model";
+import { IList } from "../../models/share.model";
 
 export const navbarFirstNavigate: INavbarFirstNavigate[] = [
   { key: "1", value: "navbar.home", link: "/main" },
@@ -14,4 +15,10 @@ export const navbarFirstNavigate: INavbarFirstNavigate[] = [
     value: "navbar.myList",
     link: "/my-list",
   },
+];
+
+export const navbarSecondNavigate: IList[] = [
+  { key: "1", value: "search" },
+  { key: "2", value: "notifications" },
+  { key: "3", value: "accountMenu" },
 ];

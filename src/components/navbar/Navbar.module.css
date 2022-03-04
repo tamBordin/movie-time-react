@@ -6,17 +6,16 @@
     top: 0;
     position: relative;
     z-index: 2;
-    padding: 0 60px;
     color: #fff;
+    padding: 0 4%;
 }
 
 .logo {
     display: block;
-    margin-right: 25px;
     text-decoration: none;
     color: #fff;
     font-weight: 400;
-    font-size: 22px;
+    font-size: 1.8em;
     line-height: 25px;
     text-decoration-color: #e50914;
 }
@@ -37,7 +36,6 @@
 .first__navigation>li>a {
     display: flex;
     align-items: center;
-    font-size: 14px;
     font-weight: 500;
     height: 19.5938px;
     position: relative;
@@ -56,11 +54,54 @@
     top: 0;
 }
 
-.second__navigation>div {
-    margin-right: 20px;
-    font-size: 14px;
+.second__navigation>div:not(:last-child) {
+    margin-right: 15px;
 }
 
-.second__navigation>div.search__box {
+.second__navigation>div {
     display: inline-block;
+    vertical-align: middle;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.second__navigation>div>.search__tab {
+    display: inline-block;
+    cursor: pointer;
+    border: none;
+    background: 0 0;
+}
+
+@media screen and (min-width: 1200px) {
+    .main__header {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 1150px) {
+    .logo {
+        margin-right: 25px;
+    }
+}
+
+@media screen and (min-width: 950px) {
+    .logo {
+        font-size: 25px;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    .main__header {
+        padding: 0 60px;
+    }
+
+    .second__navigation {
+        right: 60px;
+    }
+}
+
+@media screen and (min-width: 1330px) {
+    .second__navigation>div:not(:last-child) {
+        margin-right: 20px;
+    }
 }
